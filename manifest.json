@@ -1,0 +1,42 @@
+{
+    "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.5/MicrosoftTeams.schema.json",
+    "manifestVersion": "1.5",
+    "version": "1.0.0",
+    "id": "13187fe1-0989-48d6-a43f-a6e4fb9f2dca",
+    "packageName": "com.codefactor",
+    "developer": {
+        "name": "CodeFactor",
+        "websiteUrl": "https://www.codefactor.io",
+        "privacyUrl": "https://www.codefactor.io/privacy",
+        "termsOfUseUrl": "https://www.codefactor.io/terms"
+    },
+    "icons": {
+        "color": "color.png",
+        "outline": "outline.png"
+    },
+    "name": {
+        "short": "CodeFactor",
+        "full": "CodeFactor.io"
+    },
+    "description": {
+        "short": "Automated Code Review for Git",
+        "full": "CodeFactor instantly performs Code Review with every GitHub Commit or PR. Zero setup time. Get actionable feedback within seconds. Customize rules, get refactoring tips and ignore irrelevant issues.\n\nLanguages: Bash, C, C#, C++, CoffeeScript, CSS, Dockerfile, Go, Groovy, Java, JS, Kotlin, Less, PHP, Python, Ruby, Scala, SCSS, Sugar SS, Swift, TypeScript, YAML, Dart and R."
+    },
+    "accentColor": "#FFFFFF",
+    "connectors": [
+        {
+            "connectorId": "c8de2758-47fa-4082-81cd-da8cbedcb915",
+            "configurationUrl": "https://www.codefactor.io/MSTeamsConnector",
+            "scopes": [
+                "team"
+            ]
+        }
+    ],
+    "permissions": [
+        "identity",
+        "messageTeamMembers"
+    ],
+    "validDomains": [
+        "www.codefactor.io"
+    ]
+}
